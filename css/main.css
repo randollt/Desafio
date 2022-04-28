@@ -176,7 +176,7 @@ body {
 }
 
 .best_1 {
-  background-image: url('../img/bestseller/lente1.jpg');
+  background-image: url('/Desafio/img/bestseller/lente1.JPG');
   background-size: 100% 100%;
   box-shadow: -1px 0px 5px 0px rgba(0, 0, 0, 0.26);
   
@@ -184,14 +184,14 @@ body {
 }
 
 .best_2 {
-  background-image: url('../img/bestseller/lente2.jpg');
+  background-image: url('/Desafio/img/bestseller/lente2.JPG');
   background-size: 100% 100%;
   box-shadow: -1px 0px 5px 0px rgba(0, 0, 0, 0.26);
  
 }
 
 .best_3 {
-  background-image: url('../img/bestseller/lente3.jpg');
+  background-image: url('/Desafio/img/bestseller/lente3.JPG');
   background-size: 100% 100%;
   box-shadow: -1px 0px 5px 0px rgba(0, 0, 0, 0.26);
   
