@@ -72,7 +72,7 @@ body {
 /** Navegador**/
 .navbar {
   grid-area: navbar;
-  background-color: #000000c0;
+  background-color: #4a388bc0;
   display: flex;
   
   justify-content: center;
@@ -222,7 +222,7 @@ body {
 /** footer **/
 .footer {
   grid-area: footer;
-  background-color: #2b2b2b;
+  background-color: #4a388bc0;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
