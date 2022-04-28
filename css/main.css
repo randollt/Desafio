@@ -1,0 +1,991 @@
+@import url("https://fonts.googleapis.com/css2?family=Public+Sans&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  font-family: "Lexend deca";
+  font-size: 1.2rem;
+  min-height: 100%;
+}
+
+.grid-container > * {
+  
+  text-align: center;
+  margin: 0%;
+  padding: 5px
+}
+
+/** Header**/
+
+.header {
+  grid-area: header;
+  margin: 0%;
+  padding: 0%;
+  width: 100%;
+  
+  
+  
+}
+.cont-logotipo {
+  display: flex;
+  padding: 0%;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  background-color: rgba(0, 0, 0, 0.808);
+  position: fixed;
+  width: 100%;
+  
+}
+
+
+
+.cont-logotipo img {
+  height: 50px;
+  width: 50px;
+  display: flex;
+  border-radius: 10px;
+  
+}
+
+.titlehome {
+  font-size: 25px;
+  display: flex;
+  color: aliceblue;
+  font-family: "Lexend deca";
+  margin-right: 5%;
+  animation-name: titulogeneral;
+  animation-duration: 5s;
+  animation-delay: 1s;
+}
+
+
+
+/** Navegador**/
+.navbar {
+  grid-area: navbar;
+  background-color: #000000c0;
+  display: flex;
+  
+  justify-content: center;
+  height: 50px;
+}
+
+.navbar ul {
+  list-style: none;
+  font-size: 70%;
+  display: flex;
+  align-items: center;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: #fff;
+  margin: 2px;
+  padding: 2px;
+}
+
+
+.sidebar {
+  grid-area: sidebar;
+  background-color: #eeeeee;
+  padding: 0%;
+  display: flex;
+
+}
+
+.titulusomos {
+  font-family: "Lexend deca";
+}
+.textsomos {
+  font-family: "Lexend deca";
+  font-size: 14px;
+}
+
+.nuestrolocal {
+  font-size: 15px;
+  padding: 5%;
+}
+
+/* main */
+.main {
+  grid-area: main;
+  background-color: #eeeeee;
+  padding: 0%;
+  margin: 0%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+
+
+
+.contenedor-img {
+  background-image: url('../img/lentes1440.jpg');
+  background-size: 100% 100%;
+  
+  
+  
+}
+
+.banner {
+
+  
+  height: 130px;
+  width: 100%;
+  
+
+}
+
+.bestseller {
+  font-family: "Lexend deca";
+  color: #abada6;
+}
+
+.bestsellerimg {
+
+  width: 250px;
+  height: 800px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: 2%;
+  
+}
+
+.best_1 {
+  background-image: url('../img/bestseller/lente1.jpg');
+  background-size: 100% 100%;
+  box-shadow: -1px 0px 5px 0px rgba(0, 0, 0, 0.26);
+  
+
+}
+
+.best_2 {
+  background-image: url('../img/bestseller/lente2.jpg');
+  background-size: 100% 100%;
+  box-shadow: -1px 0px 5px 0px rgba(0, 0, 0, 0.26);
+ 
+}
+
+.best_3 {
+  background-image: url('../img/bestseller/lente3.jpg');
+  background-size: 100% 100%;
+  box-shadow: -1px 0px 5px 0px rgba(0, 0, 0, 0.26);
+  
+}
+.nuestrolocal {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.nuestrolocalimg  {
+
+  width: 250px;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: 2%;
+}
+
+
+.nuestroimg {
+
+  background-image: url('../img/nuestrolocal.JPG');
+  background-size: 100% 100%;
+  box-shadow: -1px 0px 5px 0px rgba(0, 0, 0, 0.26);
+}
+
+/** footer **/
+.footer {
+  grid-area: footer;
+  background-color: #2b2b2b;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.box__footer {
+  display: flex;
+  flex-direction: column;
+  font-size: 65%;
+}
+
+.box__footer h2 {
+  color: #b8b8b8;
+}
+
+.box__footer a {
+  color: #c4c4c4;
+  margin: 5%;
+}
+
+.box__footer a:hover {
+  opacity: 0.8;
+}
+
+.box__copyright {
+  max-width: 1200px;
+  margin: auto;
+  text-align: center;
+  padding: 0px 40px;
+}
+
+.box__copyright p {
+  font-size: 50%;
+  color: #dbdbdb;
+}
+
+.box__copyright hr {
+  border: none;
+  height: 1px;
+  background-color: #7a7a7a;
+}
+
+
+/*text-titleall*/
+
+.text-titleall {
+  display: flex;
+  justify-content: center;
+  color: #818181;
+  font-family: "Lexend deca";
+}
+
+/**Catalogo**/
+
+.hrcontenedor {
+  border: none;
+  height: 1px;
+  background-color: #9999997c;
+  width: 100%;
+}
+
+.cattablas {
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  align-content: stretch;
+  justify-content: center;
+}
+
+.cattablas tr th {
+  color: #0000008f;
+  font-size: 75%;
+  padding: 2%;
+  font-family: "Lexend deca";
+}
+
+.cattablas tr td {
+  color: #3333338f;
+  font-size: 50%;
+  font-family: "Lexend deca";
+  padding: 1%;
+}
+
+
+
+
+.catalogorayban {
+
+  width: 250px;
+  height: 2400px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  margin: 2%;
+  
+}
+
+.rayban1 {
+  background-image: url('../img/Catalogo/rayban1.JPG');
+  background-size: 100% 100%;
+  
+  
+}
+
+.rayban2 {
+  background-image: url('../img/Catalogo/rayban2.JPG');
+  background-size: 100% 100%;
+  
+  
+}
+
+.rayban3 {
+  background-image: url('../img/Catalogo/rayban3.JPG');
+  background-size: 100% 100%;
+}
+.rayban4 {
+  background-image: url('../img/Catalogo/rayban4.JPG');
+  background-size: 100% 100%;
+}
+.rayban5 {
+  background-image: url('../img/Catalogo/rayban5.JPG');
+  background-size: 100% 100%;
+}
+.rayban6 {
+  background-image: url('../img/Catalogo/rayban6.JPG');
+  background-size: 100% 100%;
+}
+
+
+/** Ubicación **/
+
+.map {
+  display: flex;
+  margin: 1%;
+  width: 80%;
+  height: 60%;
+}
+
+.textocontenido-primary {
+  font-family: "Lexend deca";
+  color: #0000008f;
+  font-size: 65%;
+  margin: 2%;
+  width: 100%;
+  
+}
+
+
+.textocontenido {
+
+  width: 100%;
+  height: auto
+}
+
+/*Formulario*/
+
+.subtitlecontent {
+  font-size: 25px;
+  margin: 100px;
+}
+
+.subtitlecontent-tile {
+  margin: 50px;
+}
+
+.text-subtitlecontent {
+  margin: 50px;
+}
+
+.contenedorform {
+  padding: 10%;
+}
+.formu-title {
+  margin: 5%;
+}
+
+form {
+  background-color: white;
+  border-radius: 3px;
+  color: #999;
+  font-size: 15px;
+  padding: 20px;
+  margin: 0 auto;
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+input,
+textarea {
+  border: 0;
+  outline: none;
+
+  width: 80%;
+}
+
+.field {
+  border: solid 1px #ccc;
+  padding: 10px;
+}
+
+.field:focus {
+  border-color: #18a383;
+}
+
+.center-content {
+  text-align: center;
+}
+
+.btn {
+  border-radius: 3px;
+  display: flex;
+  width: 50px;
+  height: 30px;
+  text-decoration: none;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.3);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
+}
+
+.btn-green {
+  color: white;
+  background-color: #14213d;
+  padding: 10%;
+}
+
+.btn-green:hover {
+  background-color: #14213d;
+}
+
+.btn-green:active {
+  background-color: #14213d;
+}
+
+/* sobrenosotros*/
+
+.contenedor-sobre {
+  width: 100%;
+  height: 100%;
+  background-color: #e6e6e6;
+}
+
+.textocontenido img {
+  box-shadow: -1px 0px 5px 0px rgba(0, 0, 0, 0.26);
+  padding: 1%;
+  margin: 1%;
+  width: 95%;
+}
+
+
+.imgnosotros {
+  width: 100%;
+  height: 300px;
+  
+}
+
+.fondonosotros {
+
+  background-image: url('../img/6.jpg');
+  background-size: 100% 100%;
+  box-shadow: -1px 0px 5px 0px rgba(0, 0, 0, 0.26);
+}
+
+
+/***********grid mobile***********/
+.grid-container {
+  
+  display: grid;
+  
+  
+  grid-template:
+    "header" 50px
+    "navbar" 50px
+    "main" auto
+    "sidebar" auto
+    "footer" 150px;
+}
+
+@media screen and (min-width: 506px) {
+
+
+  .grid-container {
+    
+    display: grid;
+    
+    
+    grid-template:
+      "header" 50px
+      "navbar" 70px
+      "main" auto
+      "sidebar" auto
+      "footer" 150px;
+  }
+  .cont-logotipo {
+    display: flex;
+    
+    padding: 0%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0.808);
+
+    
+  
+}
+
+.banner {
+  
+    
+  height: 270px;
+  width: 100%;
+  
+
+}
+
+.navbar {
+
+  height: 70px;
+
+}
+.navbar ul {
+  list-style: none;
+  font-size: 95%;
+  display: flex;
+  align-items: center;
+  
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: #fff;
+  margin: 10px;
+  padding: 2px;
+}
+
+.box__footer {
+  display: flex;
+  flex-direction: column;
+  font-size: 65%;
+  margin: 1%;
+}
+
+.box__footer {
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.box__copyright {
+  
+  display: flex;
+
+ }
+
+
+}
+
+@media screen and (min-width: 700px) {
+  .grid-container {
+    
+    
+    grid-template:
+      "header header" 50px
+      "navbar navbar" 100px
+      "main main" auto
+      "sidebar"  auto
+      "footer" auto / 200px auto;
+
+      
+  }
+
+  .grid-container {
+    
+    grid-template:
+      "header" 100px
+      "navbar" 100px
+      "main" auto
+      "sidebar" auto
+      "footer" 150px;
+  }
+
+  
+ 
+  .cont-logotipo {
+    height: 100px;
+    
+  }  
+
+  .cont-logotipo img {
+    height: 100px;
+    width: 100px;
+    display: flex;
+    
+  }
+  
+  .box__footer {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 25px 0px 25px;
+  }
+
+  .box__copyright {
+    
+    display: flex;
+
+   }
+
+   .titlehome {
+    font-size: 35px;
+   
+  }
+
+ 
+  
+  .banner {
+  
+    
+    height: 320px;
+    width: 100%;
+    
+  
+  }
+
+  .navbar {
+
+    height: 100px;
+  
+  }
+
+  .navbar ul {
+    
+    font-size: 22px;
+    
+  }
+
+
+  .bestseller {
+    font-size: 27px;
+  }
+  
+  .bestsellerimg {
+  
+    width: 350px;
+    height: 1000px;
+    
+    
+  }
+  .nuestrolocalimg  {
+
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 2%;
+  }
+
+
+
+.box__footer {
+  
+  font-size: 13px;
+}
+
+
+.box__copyright p {
+  font-size: 13px;
+ 
+}
+
+.cattablas tr th {
+
+  font-size: 18px;
+}
+
+.text-titleall {
+
+  font-size: 40px;
+}
+
+
+.cattablas tr td {
+
+  font-size: 15px;
+}
+
+.catalogorayban {
+
+  
+  
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    text-align: center;
+    
+    
+
+}
+
+.rayban1 {
+  width: 320px;
+  height: 400px;
+  background-size: cover;
+}
+.rayban2 {
+  width: 320px;
+  height: 400px;
+  background-size: cover;
+}
+.rayban3 {
+  width: 320px;
+  height: 400px;
+  background-size: cover;
+}
+.rayban4 {
+  width: 320px;
+  height: 400px;
+  background-size: cover;
+}
+.rayban5 {
+  width: 320px;
+  height: 400px;
+  background-size: cover;
+}
+.rayban6 {
+  width: 320px;
+  height: 400px;
+  background-size: cover;
+}
+
+.textocontenido-primary {
+
+  font-size: 18px;
+}
+
+.map {
+
+  width: 600px;
+  height: 400px;
+}
+
+form {
+ 
+  font-size: 20px;
+  width: 450px;
+  
+}
+
+
+.imgnosotros {
+
+  width: 100%;
+    height: 600px;
+}
+}
+
+@media screen and (min-width: 1024px) {
+  .grid-container {
+    grid-template:
+      "header  header header" 100px
+      "navbar  navbar  navbar" auto
+      "main  sidebar footer" autopx /
+      200px auto 200px;
+  }
+
+
+  .titlehome {
+    font-size: 70px;
+   
+  }
+
+
+  .navbar {
+
+    height: 100px;
+    
+  }
+  .navbar ul {
+    
+    font-size: 25px;
+    
+  }
+  
+  .navbar ul li {
+
+    margin: 90px;
+  }
+  
+
+  .banner {
+  
+    
+    height: 520px;
+    width: 100%;
+    
+  
+  }
+  .bestseller {
+    font-size: 30px;
+  }
+
+  .bestsellerimg {
+  
+    
+    flex-direction: row;
+    height: 600px;
+    width: 1700px;
+    
+  }
+
+  .best_1 {
+    background-size: cover;
+    height: 441px;
+    width: 517px;
+  }
+
+
+  .best_2 {
+    background-size: cover;
+    height: 441px;
+    width: 517px;
+  }
+
+  .best_3 {
+    background-size: cover;
+    height: 441px;
+    width: 517px;
+  }
+
+  .box__footer {
+  
+    font-size: 16px;
+  }
+
+  .box__copyright p {
+    font-size: 16px;
+   
+  }
+
+  .box__copyright {
+    margin-top: 110px;
+    display: flex;
+
+   }
+ 
+   .titulusomos {
+     font-size: 22px;
+   }
+   .textsomos {
+
+    font-size: 18px;
+   }
+
+
+   .nuestrolocalimg  {
+
+    width: 614px;
+    height: 514px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 2%;
+  }
+
+
+  .catalogorayban {
+
+  
+  
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    text-align: center;
+    
+    
+
+}
+
+.rayban1 {
+  width: 400px;
+  height: 550px;
+  background-size: cover;
+}
+.rayban2 {
+  width: 400px;
+  height: 550px;
+  background-size: cover;
+}
+.rayban3 {
+  width: 450px;
+  height: 550px;
+  background-size: cover;
+}
+.rayban4 {
+  width: 400px;
+  height: 550px;
+  background-size: cover;
+}
+.rayban5 {
+  width: 400px;
+  height: 550px;
+  background-size: cover;
+}
+.rayban6 {
+  width: 450px;
+  height: 550px;
+  background-size: cover;
+}
+  
+
+.cattablas tr th {
+
+  font-size: 28px;
+}
+
+.text-titleall {
+
+  font-size: 50px;
+}
+
+
+.cattablas tr td {
+
+  font-size: 25px;
+}
+
+.textocontenido-primary {
+
+  font-size: 22px;
+}
+
+.map {
+
+  width: 600px;
+  height: 500px;
+}
+
+form {
+ 
+  font-size: 25px;
+  width: 650px;
+  height: 450px;
+  margin: 20px;
+}
+
+.contenedorform {
+
+  padding: 0px;
+}
+.textocontenido-primary{
+  margin: 10px;
+}
+.formu-title{
+ margin: 10px;
+}
+
+.imgnosotros {
+
+  width: 80%;
+  height: 800px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  
+  
+}
+
+.cont-logotipo {
+
+  width: 100%;
+}
+
+}
