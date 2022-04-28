@@ -94,6 +94,12 @@ body {
 }
 
 
+.navbar ul li:hover {
+  background: #a5a5a5;
+  border-radius: 2px;
+}
+
+
 .sidebar {
   grid-area: sidebar;
   background-color: #eeeeee;
