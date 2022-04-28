@@ -115,6 +115,12 @@ body {
   padding: 5%;
 }
 
+@keyframes titulogeneral {
+  0% {color: #00000091;}
+  50% {color: #66666681;}
+  100% {color: #e6e6e6;}
+}
+
 /* main */
 .main {
   grid-area: main;
